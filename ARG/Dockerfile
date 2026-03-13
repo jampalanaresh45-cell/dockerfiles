@@ -4,5 +4,5 @@ ARG course="Devops" \
     Trainer="sivakumar" \
     Joinee="Naresh" \
     Duration="10HRS"
-RUN echo "NewJoinee" ${"Joinee"}, trainer: ${"Trainer"}
+RUN echo "NewJoinee ${Joinee}, trainer: ${Trainer}, version ${VERSION}"
 CMD ["sleep", "1000"]
