@@ -1,4 +1,4 @@
-FROM almalinx:9
+FROM almalinux:9
 ENV COURSE="DOCKER" \
     Trainer="Sivakumar" \
     Joiner="Naresh" \
